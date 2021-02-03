@@ -2,8 +2,8 @@
 
 require "classes_partiel.php";
 
-$lot = array(new Lot(15000, "Asus", 400, 100, 20),
-			 new Lot(25000, "Samsung", 100, 50, 10));
+$lot = array(new Lot(45000, "Asus", 400, 100, 20),
+			 new Lot(55000, "Samsung", 100, 50, 10));
 
 
 			 echo "<table border='2'";
