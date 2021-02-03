@@ -2,8 +2,8 @@
 
 require "ressources.php";
 
-$developpeur = array(new Developpeur(100,"FERREIRA", "Nicols", "nicolas@test.net", "0606060606",2500, "Java"),
-					 new Developpeur(200,"BELTOU", "Noa", "noa@test.net", "0707070707",2800, "C#")) ;
+$developpeur = array(new Developpeur(550,"Le Flock", "Louis-Marie", "lmleflock@test.net", "0606060606",2500, "Java"),
+					 new Developpeur(650,"Chellal", "Amine", "ach@test.net", "0707070707",2750, "C++")) ;
 
 
 $manager = array(new Manager(500,"RIPAULT", "Alexis", "alexis@manager.net", "0606060606",4000, "DSI"),

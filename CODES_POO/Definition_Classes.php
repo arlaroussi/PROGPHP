@@ -50,24 +50,16 @@ class Personne {
 	}
 
 	//Méthodes
-	public function afficher() {
-
-		<<<AFFICHER
+	private function afficher() {
 		$this->num . '<br/>';
 		$this->nom . '<br/>';
 		$this->prenom . '<br/>';
 		$this->daten . '<br/>';
 		$this->adresse . '<br/>';
 		$this->entreprise->nom . '<br/>';
-		$this->entreprise->vocation . '<br/>';
-		$this->entreprise->lieu . '<br/>';
-		AFFICHER;
-
-		return AFFICHER;
 	}
 
 	public calculerSalaire() {
-		
 	}
 }
 ?>
