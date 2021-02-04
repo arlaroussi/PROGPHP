@@ -37,7 +37,7 @@
 		}
 
 		else {
-			echo "Mail conforme" . "<br>";
+			echo "Courriel conforme" . "<br>";
 		}
 	}
 		
@@ -50,7 +50,7 @@
 	}
 	
 	else{
-		echo "Vous n'avez rien coché" . "<br>";
+		echo "Vous n'avez rien coché la case" . "<br>";
 	}
 
 
