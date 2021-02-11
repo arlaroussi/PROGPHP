@@ -20,12 +20,12 @@ class Entreprise {
 class Personne {
 
 //Attributs
-	private $numero;
-	public $nom;
-	public $prenom;
-	public $datenn;
-	public $adr;
-	public $ent;
+	private $numero1;
+	public $nom1;
+	public $prenom1;
+	public $daten1;
+	public $adr1;
+	public $ent1;
 
 //Méthodes
 	function __construct($numero, $nom, $prenom, $dn, $adr, $ent) {
