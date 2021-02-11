@@ -2,7 +2,7 @@
 class action
 {
 //Constante
-const PARIS="Palais Brognard"; 
+const PARIS="Palais"; 
 //variables propres de la classe
 private $nom; 
 private $cours; 	
