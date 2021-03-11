@@ -20,19 +20,19 @@ class Entreprise {
 class Personne {
 
 //Attributs
-	private $num;
-	public $nom;
-	public $prenom;
-	public $dn;
-	public $adr;
-	public $ent;
+	private $numero1;
+	public $nom1;
+	public $prenom1;
+	public $daten1;
+	public $adr1;
+	public $ent1;
 
 //Méthodes
-	function __construct($num, $nom, $prenom, $dn, $adr, $ent) {
-		$this->num = $num;
+	function __construct($numero, $nom, $prenom, $dn, $adr, $ent) {
+		$this->num = $numero;
 		$this->nom = $nom;
 		$this->prenom = $prenom;
-		$this->dn = $dn;
+		$this->daten = $daten;
 		$this->adr = $adr;
 		$this->ent = $ent;
 	}

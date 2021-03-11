@@ -3,8 +3,8 @@
 class Candidat {
 
 //Attributs
-	public $id;
-	public $nom;
+	public $id1;
+	public $nom2;
 	public $prenom;
 	public $note=array();
 	public $adr;

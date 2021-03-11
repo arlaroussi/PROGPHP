@@ -3,7 +3,7 @@
 //Définition de la classe Article
 
 class Article {
-	//Attributs
+	//Attributs de la classe
 	protected $reference;
 	protected $marque;
 	protected $punit;
