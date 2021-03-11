@@ -60,6 +60,7 @@ class Personne {
 	}
 
 	public calculerSalaire() {
+		echo "Erreur de connexion à la BDD";
 	}
 }
 ?>
