@@ -7,9 +7,9 @@
  <BODY>
  	<UL>
           <?php
-          	$tab=file("tableau-10.txt");
+          	$tab1=file("tableau-10.txt");
           	for ($i=0 ; $i < count($tab) ; $j++) {
-            	echo "$tab[$i]"."<br />";
+            	echo "$tab1[$i]"."<br />";
           	}
           ?>
     </UL>
