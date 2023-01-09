@@ -23,7 +23,6 @@
 					);
 	header('location:../templates/connexionPerso.php');
 	
-//Tester avec github
 ?>
 
 

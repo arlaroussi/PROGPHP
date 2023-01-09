@@ -1,10 +1,10 @@
 <?php
 
-$marque = array("volvo","BMW","Toyota");
+$marqueTab = array("volvo","BMW","Toyota");
 
-for ($i=0; $i<count($marque); $i=++;)
+for ($i=0; $i<count($marqueTab); $i=++;)
 {
-	echo "Achat de : " . $marque[$i] . "<br/>";
+	echo "Achat de : " . $marqueTab[$i] . "<br/>";
 }
 
 ?>
