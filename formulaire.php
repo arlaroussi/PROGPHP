@@ -1,5 +1,7 @@
 <?php
 
+//Utilisation de la méthode POST
+
 	if (!empty($_POST['lname'])) { //Champ du Nom
 		if(!ctype_alpha($_POST['lname'])){
 			echo "Erreur de Nom" . "<br>";
