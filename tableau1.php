@@ -7,7 +7,7 @@
  <BODY>
  	<UL>
           <?php
-          	$tab1=file("tableau-10.txt");
+          	$tab1=file("tab-20.txt");
           	for ($i=0 ; $i < count($tab) ; $j++) {
             	echo "$tab1[$i]"."<br />";
           	}
