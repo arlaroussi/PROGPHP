@@ -4,12 +4,14 @@ class Entreprise {
 	public $nom;
 	public $vocation;
 	public $lieu;
+	public $diplome;
 
 	//Constructeur
-	function __construct($nom, $vocation, $lieu){
+	function __construct($nom, $vocation, $lieu, $diplome){
 		$this->nom = $nom;
 		$this->prenom = $prenom;
 		$this->lieu = $lieu;
+		$this->diplome = $diplome;
 	}
 }
 
@@ -48,7 +50,11 @@ class Personne {
 	public function getTel($tel){
 		return $tel;
 	}
-
+	
+	public function getDiplome() {
+		return $this->diplome;
+	}
+	
 	//Méthodes
 	private function afficher() {
 
